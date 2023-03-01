@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomas Antunez | Developer</title>
+    <link rel="preload" href="/css/normalize.css" as="style">
+    <link rel="stylesheet" href="/css/normalize.css"> <!-- normalize -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700;900&display=swap" rel="stylesheet"> <!-- fuente -->
+    <link rel="preload" href="/css/app.css" as="style">
+    <link rel="stylesheet" href="/css/app.css"> <!-- archivo principal de estilos -->
+</head>
+
+<body>
+
+    <header class="container">
+        <nav class="nav-header">
+            <button id="btn-change-user">
+                <img src="/img/arrows-rotate-solid.svg" alt="change logo">
+            </button>
+            <p>Reload User</p>
+        </nav>
+    </header>
+
+    <main class="container main-content">
+
+        <section class="presentation">
+            <img id="profile-img">
+            
+            <div>
+                <h1 id="name"></h1>
+                <h2 id="occupation">Software Developer</h2>
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="card" id="personal-information">
+                <img src="/img/id-card-clip-solid.svg">
+                <h3>Personal Information</h3>
+            </div>
+
+            <div class="card" id="personal-skills">
+                <img src="/img/brain-solid.svg">
+                <h3>Personal Skills</h3>
+            </div>
+
+            <div class="card" id="technical-skills">
+                <img src="/img/microchip-solid.svg">
+                <h3>Technical Skills</h3>
+            </div>
+
+            <div class="card" id="experience">
+                <img src="/img/wrench-solid.svg">
+                <h3>Experience</h3>
+            </div>
+        </section> <!-- .info -->
+
+        <section class="list">
+            <ul class="item-list-1">
+                <li id="item-1"></li>
+                <li id="item-2"></li>
+                <li id="item-3"></li>
+            </ul>
+            <ul class="item-list-2">
+                <li id="item-4"></li>
+                <li id="item-5"></li>
+                <li id="item-6"></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <nav class="container nav-footer">
+            <a target="_blank" id="linkedin">
+                <img src="/img/linkedin.svg" width="30px">
+            </a>
+
+            <a target="_blank" id="github">
+                <img src="/img/github.svg" width="30px">
+            </a>
+
+            <a target="_blank" id="facebook">
+                <img src="/img/facebook.svg" width="30px">
+            </a>
+
+            <a target="_blank" id="instagram">
+                <img src="/img/instagram.svg" width="30px">
+            </a>
+
+            <a target="_blank" id="twitter">
+                <img src="/img/twitter.svg" width="30px">
+            </a>
+        </nav>
+    </footer>
+
+    <script type="module" src="/js/app.js"></script>
+    
+</body>
+</html>
